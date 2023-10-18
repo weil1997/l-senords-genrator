@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #16111a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.password {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.card {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #2d2039;
+  border-radius: 0px;
+  border: 5px solid #5e4b6c;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin: 10px;
+  font-weight: bold; /* Add bold font-weight */
+  font-style: italic; /* Add italic font-style */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  font-weight: bold; /* Add bold font-weight */
+  font-style: italic; /* Add italic font-style */
+}
+
+button {
+  background-color: #a638f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  font-size: 1rem;
+  width: 100%;
+  font-weight: bold; /* Add bold font-weight */
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background-color: #2d2039;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-weight: bold; /* Add bold font-weight */
+}
+
+.password-strength .strength-bar {
+  display: flex;
+  gap: 4px;
+}
+
+.password-strength .strength-bar > div {
+  flex: 1;
+  height: 20px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.slider-label {
+  display: block;
+  margin: 10px;
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
